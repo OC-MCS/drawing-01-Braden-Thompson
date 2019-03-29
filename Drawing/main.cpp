@@ -1,5 +1,5 @@
 //================================================
-// YOUR NAME GOES HERE <-----------------  
+// Braden Thompson
 //================================================
 #include <iostream>
 #include <fstream>
@@ -29,6 +29,8 @@ int main()
 	DrawingUI   drawingUI(Vector2f(200, 50));
 	
 	// ********* Add code here to make the managers read from shapes file (if the file exists)
+	fstream file;
+	shapeMgr.load();
 
 	while (window.isOpen()) 
 	{
